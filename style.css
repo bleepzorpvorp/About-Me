@@ -1,9 +1,16 @@
 body {
-  background-color: #008689;
+  background-image: url(https://static.wikitide.net/windowswallpaperwiki/thumb/2/24/Clouds_%28Windows_95%29.png/200px-Clouds_%28Windows_95%29.png);
+  background-size: cover;
   font-family:sans-serif;
   margin: 20px;
-   cursor: url('dumb mouse.png') 16 16, auto;
+   cursor: url('cursor.png') 10 10, auto;
    text-align: center;
-   color: antiquewhite;
+   color: teal;
+}
+table {
+  color: teal;
+}
+img {
+  width: 400px;
 
 }
