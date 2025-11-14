@@ -1,13 +1,57 @@
+/* ======== PAGE BASICS ======== */
 body {
-  background-image: url(https://file.garden/ZWlUCY4S7Xz2vypS/for%20my%20neocities/tile%20backgrounds/gingham%20check/seafoam%3B%20light.png);
-  background-repeat: ;
-  font-family:sans-serif;
+  background-image: url('https://file.garden/ZWlUCY4S7Xz2vypS/for%20my%20neocities/tile%20backgrounds/gingham%20check/seafoam%3B%20light.png');
+  background-repeat: repeat;
+
+  font-family: sans-serif;
   margin: 20px;
-   cursor: url('../project/cursor.png') 16 16, auto;
-   text-align: center;
-   color: teal;
-}
-table {
+  text-align: center;
   color: teal;
-  
+
+  cursor: url('cursor.png') 16 16, auto;
+}
+
+
+
+
+div img {
+  width: 80px;
+  margin: 5px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid teal;
+  border-radius: 10px;
+  box-shadow: 0 0 15px teal;
+
+}
+
+td {
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: square;
+  width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px dashed teal;
+  border-radius: 10px;
+  box-shadow: 0 0 10px teal;
+
+  text-align: left;
+}
+a {
+    color: teal;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px aqua;
 }
